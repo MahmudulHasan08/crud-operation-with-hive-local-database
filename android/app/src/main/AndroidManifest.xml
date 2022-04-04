@@ -4,6 +4,12 @@
         android:label="class5work"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+       <meta-data
+           android:name="com.google.android.gms.ads.APPLICATION_ID"
+           android:value="ca-app-pub-3940256099942544~3347511713"/>
+<!--              admob app id-->
+<!--           android:value="ca-app-pub-9322470273107945~8229721495"/>-->
+
         <activity
             android:name=".MainActivity"
             android:exported="true"

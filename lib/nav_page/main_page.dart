@@ -1,6 +1,6 @@
 import 'package:class5work/nav_page/account_page.dart';
 import 'package:class5work/nav_page/add_page.dart';
-import 'package:class5work/nav_page/chat_page.dart';
+import 'package:class5work/nav_page/animated_page.dart';
 import 'package:class5work/nav_page/home_page.dart';
 import 'package:class5work/nav_page/my_adds_page.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +20,13 @@ class _MainPageState extends State<MainPage> {
   }
 
   int selectedItem = 0;
-  List _pages = [HomePage(), MyaddPage(), AddPage(), ChatPage(), AccountPage()];
+  List _pages = [
+    HomePage(),
+    MyaddPage(),
+    AddPage(),
+    Animated_Page(),
+    AccountPage()
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(

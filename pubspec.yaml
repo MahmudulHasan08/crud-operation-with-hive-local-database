@@ -34,6 +34,16 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  get: ^4.6.1
+  google_fonts: 2.2.0
+  lottie: ^1.2.2
+  hive: any
+  hive_flutter: any
+  google_mobile_ads: ^1.2.0
+  fluttertoast: ^8.0.9
+
+
+
 
 dev_dependencies:
   flutter_test:
@@ -74,19 +84,16 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-   - family: Raleway
-     fonts:
-       - asset: fonts/Raleway-Regular.ttf
-       - asset: fonts/Raleway-Bold.ttf
-         weight: 700
-       - asset: fonts/Raleway-LightItalic.ttf
-         weight: 300
-         style: italic
-#     - family: Trajan Pro
-#       fonts:
-#         - asset: fonts/TrajanPro.ttf
-#         - asset: fonts/TrajanPro_Bold.ttf
-#           weight: 700
+    - family: Smokum
+      fonts:
+        - asset: fonts/Smokum-Regular.ttf
+          weight: 400
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+          weight: 400
+        - asset: fonts/Raleway-Medium.ttf
+          weight: 500
 
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
