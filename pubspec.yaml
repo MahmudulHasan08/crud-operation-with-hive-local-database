@@ -41,6 +41,7 @@ dependencies:
   hive_flutter: any
   google_mobile_ads: ^1.2.0
   fluttertoast: ^8.0.9
+  http: ^0.13.4
 
 
 

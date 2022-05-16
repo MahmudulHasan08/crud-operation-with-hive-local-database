@@ -58,6 +58,7 @@ class _ProfileViewState extends State<ProfileView> {
                 scrollDirection: Axis.horizontal,
                 children: [
                   Container(
+                    //height 130 width 220
                     height: Dimensions.listViewSliderHeight,
                     width: Dimensions.listViewSliderWidth,
                     decoration: BoxDecoration(

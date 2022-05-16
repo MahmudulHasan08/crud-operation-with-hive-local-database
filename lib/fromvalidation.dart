@@ -1,12 +1,24 @@
 import 'package:class5work/const/dimensions.dart';
+import 'package:class5work/helper/get_helper.dart';
 import 'package:class5work/nav_page/main_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class FormValidation extends StatelessWidget {
+class FormValidation extends StatefulWidget {
   FormValidation({Key? key}) : super(key: key);
+
+  @override
+  State<FormValidation> createState() => _FormValidationState();
+}
+
+class _FormValidationState extends State<FormValidation> {
   final _formkey = GlobalKey<FormState>();
+  @override
+  initState() {
+    super.initState();
+    print("getdata");
+  }
 
   @override
   Widget build(BuildContext context) {

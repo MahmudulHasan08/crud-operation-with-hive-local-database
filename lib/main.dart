@@ -2,6 +2,7 @@ import 'package:class5work/fromvalidation.dart';
 import 'package:class5work/langguage.dart';
 import 'package:class5work/nav_page/add_page.dart';
 import 'package:class5work/nav_page/main_page.dart';
+import 'package:class5work/showdata.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
           textTheme: GoogleFonts.redHatMonoTextTheme(
             Theme.of(context).textTheme.apply(),
           )),
-      home: FormValidation(),
+      home: ShowData(),
     );
   }
 }
